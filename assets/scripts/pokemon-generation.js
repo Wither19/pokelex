@@ -27,7 +27,7 @@ const arrayAB = ((arrayA, arrayB) => {
             en: poke.names[8].name.toUpperCase(),
             fr: poke.names[4].name.toUpperCase()
         },
-        image: `assets/img/sprites/${arrayA.indexOf(poke) + 1}.png`,
+        image: `https://github.com/PokeAPI/sprites/tree/master/sprites/pokemon/other/official-artwork/${arrayA.indexOf(poke) + 1}.png`,
         audioFile: `assets/audio/cries/${arrayA.indexOf(poke) + 1}.wav`,
         height: {
             imperial: formatHeight("imperial", poke.height),
